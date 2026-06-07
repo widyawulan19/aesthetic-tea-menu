@@ -1,0 +1,143 @@
+.mp-container {
+    min-width: 350px;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('../Assets/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+.mp-nav {
+    width: 100%;
+    padding-bottom: 15px;
+    /* border-bottom: 1px solid var(--res-color-brown); */
+    /* border: 1px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mp-nav p {
+    color: var(--res-color-brown);
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mp-nav span {
+    font-size: 12px;
+    letter-spacing: 0;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+
+.mp-icon {
+    font-size: 25px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* =======================
+MAIN LIST
+======================= */
+.mp-content {
+    /* border: 1px solid red; */
+    height: 80vh;
+}
+
+
+/* button  */
+.nav-bottom {
+    /* width: 80%; */
+    width: auto;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 20px;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.384) !important;
+    /* left: 20px; */
+    /* right: 20px; */
+
+
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+
+    border-radius: 99px;
+
+    /* background: #f7f4ef; */
+    background: var(--res-color-brown);
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, .08);
+}
+
+.nav-bottom button {
+    border: none;
+    background: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 8px;
+
+    gap: 4px;
+
+    color: #fff;
+
+    transition: .3s;
+    /* box-shadow: var(--basic-shadow) */
+}
+
+.nav-bottom button.active {
+    background-color: var(--res-color);
+    color: #fff;
+    border-radius: 99px;
+    padding: 8px;
+}
+
+button span {
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    transition:
+        max-width .3s ease,
+        opacity .2s ease;
+}
+
+button.active span {
+    max-width: 60px;
+    opacity: 1;
+    font-size: 12px !important;
+}
+
+
+/* =======================
+MEDIA WUERY
+======================= */
+
+/* */

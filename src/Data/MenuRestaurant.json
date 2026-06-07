@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "category": "BREAKFAST",
+        "items": [
+            {
+                "title": "Spinach Breads Pasta",
+                "desc": "Creamy pasta served with sauteed spinach and toasted artisan bread.",
+                "price": "$12",
+                "tags": []
+            },
+            {
+                "title": "Crispy Egg Toast",
+                "desc": "Golden crispy toast topped with soft eggs and savory seasoning.",
+                "price": "$8",
+                "tags": [
+                    "guest"
+                ]
+            },
+            {
+                "title": "Dish Bacon Leek Quiche",
+                "desc": "Buttery quiche filled with smoky bacon, fresh leek, and creamy cheese.",
+                "price": "$10",
+                "tags": [
+                    "guest",
+                    "chef",
+                    "today"
+                ]
+            },
+            {
+                "title": "Gruyere Egg",
+                "desc": "Fluffy eggs baked with rich Gruyere cheese for a warm comforting breakfast.",
+                "price": "$10",
+                "tags": []
+            },
+            {
+                "title": "Avocado Croissant",
+                "desc": "Fresh avocado layered on a buttery croissant with mixed herbs and black pepper.",
+                "price": "$8",
+                "tags": [
+                    "more"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "BEVERAGES",
+        "items": [
+            {
+                "title": "Arabica Coffee",
+                "desc": "Smooth and aromatic coffee brewed from premium Arabica beans.",
+                "price": "$6",
+                "tags": [
+                    "more"
+                ]
+            },
+            {
+                "title": "Macchiato",
+                "desc": "Bold espresso balanced with a touch of creamy milk foam.",
+                "price": "$5",
+                "tags": [
+                    "guest"
+                ]
+            },
+            {
+                "title": "Green Spark",
+                "desc": "Refreshing sparking green tea with a light citrus twist.",
+                "price": "$8",
+                "tags": []
+            },
+            {
+                "title": "Smoothies",
+                "desc": "A refreshing blend of fresh fruits, perfectly smooth and naturally sweet.",
+                "price": "$10",
+                "tags": [
+                    "more"
+                ]
+            },
+            {
+                "title": "Black Grape Juice",
+                "desc": "Rich and juicy black grapes served chilled for a naturally refreshing taste.",
+                "price": "$6",
+                "tags": []
+            },
+            {
+                "title": "Hot Chocolate",
+                "desc": "Creamy hot chocolate crafted with rich cocoa for a warm and comforting treat.",
+                "price": "$6",
+                "tags": []
+            }
+        ]
+    }
+]

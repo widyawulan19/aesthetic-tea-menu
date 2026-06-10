@@ -181,3 +181,16 @@ This project was created as a portfolio piece to demonstrate:
 ## 📸 Preview
 
 Tea & Tarts provides a calm, elegant, and user-friendly experience inspired by modern tea houses and digital café menus.
+![ Welcome Screen](./public/preview/about.png)
+![ Category Screen](./public/preview//menucategory.png)
+![ List Menu Screen](./public/preview/listmenu.png)
+![ Recommendation Screen](./public/preview/recommendation.png)
+![ Recommendation2 Screen](./public/preview/recommendation2.png)
+![ About Screen](./public/preview/about.png)
+
+
+
+## LIVE PREVIRW / Deploy link 
+[https://real-standard-package.vercel.app]
+
+

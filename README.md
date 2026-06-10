@@ -1,177 +1,183 @@
-# Digital Menu Web App Packages "PREMIUM PACKAGES"
+# 🍃 Tea & Tarts
 
-## Digital Menu Website Packages
+A modern digital tea menu built with React, designed to provide customers with a smooth and elegant browsing experience for exploring handcrafted tea selections.
 
-Modern and responsive digital menu solutions for coffee shops, restaurants, cafés, and culinary businesses that want to grow with a more digital customer experience.
+## ✨ Features
 
-## Package Overview
+### 📖 Interactive Menu
 
-This project provides three service packages based on business needs:
+Browse tea categories including:
 
-Basic Package → Simple & clean digital menu
-Standard Package → Interactive menu with search feature
-Premium Package → Full experience with advanced customization
+* Black Tea
+* Green Tea
+* Herbal Tea
+* Specialty Tea
+* Tea Latte
+* Coffee
 
-Perfect for:
+### 🌟 Tea Recommendations
 
-* Coffee Shops
-* Restaurants
-* UMKM Culinary Businesses
-* Beverage Brands
-* Modern Café Concepts
-  
-## 🖼️ Preview
+Discover curated selections such as:
 
-> Simple, elegant interface inspired by modern cafe experiences.
+* Tea Master's Pick
+* Loved by Our Guests
+* More Chef Recommendations
 
-* Welcome screen with branding
-* Interactive menu list
+### 🏡 About Page
+
+Learn more about Tea & Tarts including:
+
+* Store information
+* Opening hours
+* Location
+* Map preview
+
+### 🎨 Smooth User Experience
+
+* Mobile-first design
+* Animated page transitions using Framer Motion and AOS
+* Bottom navigation menu
+* Category-based menu filtering
+* Dynamic menu rendering from JSON data
+
 ---
-
-## THIS PACKAGE [Basic Package]
-
-
-Perfect for businesses that need a clean and simple digital menu.
-
-### What you'll get from this package
-* Custom UI design
-* Direct Whatsapp 
-* Social media integration
-* Maps & operasional hour
-
-* Multiple sections/pages
-* Premium animation 
-
-* Interactive experience
-* Promo/banner section
-* Display image for each category
-
-
-### Features
-* Responsive Digital Menu
-* Menu Categories
-* Modern UI Design
-* Mobile Friendly Layout
-* Contact Information Section
-* Easy-to-Edit Menu Data
-* Fast Loading Website
-
-### Suitable For
-* Small cafés
-* Street food brands
-* Simple restaurant menus
-* Businesses starting their digital presence
 
 ## 🛠️ Tech Stack
 
-* ⚛️ React.js
-* 🎨 CSS (Custom styling)
-* 📦 Vite / Create React App (depending on setup)
+### Frontend
 
----
+* React.js
+* React Router DOM
+* Framer Motion
+* React Icons
+* AOS
 
-## 🚀 Getting Started
+### Data Management
 
-### 1. Clone the repository
+* JSON-based menu structure
 
-```bash
-git clone https://github.com/widyawulan19/standard-package.git
-cd standard-package
-```
+### Styling
 
----
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
----
-
-### 3. Run development server
-
-```bash
-npm start
-```
-
-or (if using Vite):
-
-```bash
-npm run dev
-```
-
----
-
-### 4. Open in browser
-
-```bash
-http://localhost:3000
-```
-
----
-
-## 📱 Testing on Mobile (Recommended)
-
-To test the app directly on your phone:
-
-1. Make sure your phone & laptop are on the same WiFi
-2. Find your local IP:
-
-   ```bash
-   ifconfig
-   ```
-3. Open in your phone browser:
-
-   ```bash
-   http://YOUR_IP:3000
-   ```
+* CSS3
+* Responsive Mobile Layout
 
 ---
 
 ## 📂 Project Structure
 
-```
 src/
+
+├── Assets/
+
+│ ├── Recommendation/
+
+│ ├── cat1.png
+
+│ ├── cat2.svg
+
+│ └── ...
+
 │
-├── components/
-├── pages/
-├── data/
-├── styles/
-└── App.jsx
+
+├── Components/
+
+│ ├── Navbar.jsx
+
+│ ├── MenuNavbar.jsx
+
+│ └── NavigasiBottom.jsx
+
+│
+
+├── Data/
+
+│ └── TeaMenu.json
+
+│
+
+├── Pages/
+
+│ ├── MenuPage.jsx
+
+│ ├── ListMenu.jsx
+
+│ ├── Recommendation.jsx
+
+│ ├── AboutPage.jsx
+
+│ └── MenuList.jsx
+
+│ └── Welcome.jsx
+
+
+│
+
+├── Styles/
+
+│ ├── Components/
+
+│ ├── Tea/
+
+│ └── ...
+
+
+│
+
+├── Utils/
+
+│ ├── AosInit.jsx/
+
+│
+
+
+├── App.js
+
+└── index.js
+
+
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/tea-and-tarts.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm start
+```
+
+Build production version:
+
+```bash
+npm run build
 ```
 
 ---
 
-## 💡 Future Improvements
+## 🎯 Project Goal
 
-* 🛒 Add cart & ordering system
-* 🔐 Authentication (Admin & User)
-* 🧾 Order history
-* 🌐 Backend integration (API)
-* 📊 Dashboard for admin
+This project was created as a portfolio piece to demonstrate:
 
----
-
-## 🤝 Contributing
-
-Feel free to fork this project and improve it!
-Pull requests are welcome.
+* React component architecture
+* Dynamic data rendering
+* JSON-based content management
+* Mobile-first UI design
+* Interactive menu experiences for cafés and restaurants
 
 ---
 
-## 📄 License
+## 📸 Preview
 
-This project is open-source and available under the MIT License.
-
----
-
-
-## LIVE PREVIRW / Deploy link 
-[https://real-standard-package.vercel.app]
-
-## Preview 
-![ Welcome Screen](./public/assets/welcomePic.png)
-![ Category Screen](./public/assets/categoryPic.png)
-![ Menu Screen](./public/assets/menuList.png)
-
+Tea & Tarts provides a calm, elegant, and user-friendly experience inspired by modern tea houses and digital café menus.

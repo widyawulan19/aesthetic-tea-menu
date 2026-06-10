@@ -1,66 +1,3 @@
-.mp-container {
-    min-width: 350px;
-    width: 100%;
-    height: 100vh;
-    padding: 20px;
-    gap: 10px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-    /* background-color: #ffffff8e; */
-    background:
-        linear-gradient(rgba(255, 255, 255, 0.521),
-            rgba(255, 255, 255, 0.521)), url('../Assets/plainbg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-
-
-.mp-nav {
-    width: 100%;
-    padding-bottom: 5px;
-    /* border-bottom: 1px solid var(--res-color-brown); */
-    /* border: 1px solid red; */
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.mp-img {
-    /* border: 1px solid red; */
-}
-
-.mp-nav span {
-    font-size: 12px;
-    letter-spacing: 0;
-    font-style: italic;
-    opacity: 0.7;
-}
-
-
-.mp-icon {
-    font-size: 25px;
-    -webkit-tap-highlight-color: transparent;
-    color: var(--res-color);
-}
-
-/* =======================
-MAIN LIST
-======================= */
-.mp-content {
-    /* border: 1px solid red; */
-    height: 80vh;
-}
-
-
 /* button  */
 .navigasi-bottom {
     /* width: 80%; */
@@ -133,10 +70,3 @@ button.active span {
     opacity: 1;
     font-size: 12px !important;
 }
-
-
-/* =======================
-MEDIA WUERY
-======================= */
-
-/* */

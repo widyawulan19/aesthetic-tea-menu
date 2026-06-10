@@ -2,38 +2,25 @@
    🌐 ROOT DESIGN SYSTEM
 ========================= */
 :root {
-  /* 🎨 COLORS */
 
-
-  /* Background */
-  --color-bg-primary: #F4F1EC;
-  /* --color-bg-primary: #e0d3bf; */
-
-  --color-bg: #f0ece4;
-  --color-bg-secondary: #E8E2D8;
+  --color-bg: #EDEDED;
 
   /* Text */
   --color-text-primary: #2B2B2B;
   --color-text-secondary: #6F6F6F;
 
-  /* Accent */
-  --color-accent: #C9A46A;
-  --color-logo: #c8ac7e;
-
   /* Divider / Border */
   --color-border: #CFC8BD;
 
-  /* Optional (food tone support) */
-  --color-brown: #563a25;
-  --color-warm: #B97A56;
 
   /* =======================
-  COLOR PALETTE MENU RESTAURANT 
+  COLOR PALETTE MENU TEA
   ======================= */
-  --res-color: #E0BEA2;
-  --res-color-brown: #484244;
-  --res-color-bata: #703027;
-  --res-color-bata2: #A84933;
+  --res-color: #0E3918;
+  --res-color-soft: #839988;
+  --res-color-soft2: #e7f3e9;
+  --res-color-basic: #fff;
+  --res-color-opacity: #1e4a2843;
 
 
   /* shadow  */
@@ -87,7 +74,7 @@ body {
   /* font-family: 'Inter', sans-serif; */
   font-family: "Roboto Slab", serif;
 
-  background: var(--color-secondary-bg);
+  background: var(--color-bg);
   color: var(--color-text-primary);
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;

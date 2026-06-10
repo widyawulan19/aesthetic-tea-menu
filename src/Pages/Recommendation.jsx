@@ -1,45 +1,55 @@
 import React from 'react'
-import '../Styles/Special.css'
-import restaurantMenu from '../Data/MenuRestaurant.json'
+import '../Styles/Tea/Recommendation.css'
+import teaMenu from '../Data/TeaMenu.json'
 
 import { FaFire } from "react-icons/fa";
 import { TbCloverFilled } from "react-icons/tb";
+import { BsLeafFill } from "react-icons/bs";
 
-import img1 from '../Assets/pic9.svg'
-import img2 from '../Assets/pic8.svg'
-import img3 from '../Assets/menu3.svg'
-import img4 from '../Assets/pic12.svg'
-import img5 from '../Assets/pic11.svg'
-import img6 from '../Assets/pic10.svg'
+import img1 from '../Assets/Recommendation/darjeeling.svg'
+import img2 from '../Assets/Recommendation/Ceylon.svg'
+import img3 from '../Assets/Recommendation/bancha.svg'
+import img4 from '../Assets/Recommendation/Mint_Tea.svg'
+import img5 from '../Assets/cat4.svg'
+import img6 from '../Assets/Recommendation/early_grey.svg'
+import img7 from '../Assets/Recommendation/rooibos_vanilla.svg'
+import img8 from '../Assets/Recommendation/vanillagrape.svg'
+import img9 from '../Assets/Recommendation/africa.svg'
 
-function SpecialistPage() {
+
+
+
+function Recommendation() {
 
   // Flatten semua item menu
-  const allMenus = restaurantMenu.flatMap(menu => menu.items)
+  const allMenus = teaMenu.flatMap(menu => menu.items)
 
   // Ambil chef favorite (1 item)
   const chefPick = allMenus.find(item =>
-    item.tags?.includes("chef")
+    item.menuPicks?.includes("master's pick")
   )
 
   // Ambil guest favorites (bisa banyak)
   const guestPicks = allMenus.filter(item =>
-    item.tags?.includes("guest")
+    item.menuPicks?.includes("guest")
   )
 
   //Ambil more chef fav
   const morePick = allMenus.filter(item => 
-    item.tags?.includes("more")
+    item.menuPicks?.includes("more")
   )
 
   // Mapping gambar berdasarkan title
   const menuImages = {
-    "Dish Bacon Leek Quiche": img1,
-    "Crispy Egg Toast": img2,
-    "Macchiato": img3 ,
-    "Avocado Croissant": img4,
-    "Arabica Coffee": img5,
-    "Smoothies": img6
+    "Darjeeling": img1,
+    "Ceylon & India":img2,
+    "Bancha":img3,
+    "Moroccan Mint":img4,
+    "Lemon Herbal":img5,
+    "Earl Grey": img6,
+    "Rooibos":img7,
+    "White Vanilla Grapefruit":img8,
+    "African Chai":img9
   }
 
   return (
@@ -51,24 +61,23 @@ function SpecialistPage() {
 
         <div className="chef-badge">
           <p>
-            <FaFire />
-            CHEF'S MENU PICK
+            🍃 Tea Master's Pick
           </p>
         </div>
 
         {chefPick && (
           <div className="chef-card">
 
-            <h4>{chefPick.title}</h4>
+            <h4>{chefPick.name}</h4>
 
-            <p>{chefPick.desc}</p>
+            <p>{chefPick.description}</p>
 
-            <span>{chefPick.price}</span>
+            {/* <span>{chefPick.price}</span> */}
 
             <div className="pic-img">
               <img
-                src={menuImages[chefPick.title]}
-                alt={chefPick.title}
+                src={menuImages[chefPick.name]}
+                alt={chefPick.name}
               />
             </div>
 
@@ -82,7 +91,7 @@ function SpecialistPage() {
 
         <div className="guest-badge">
           <p>
-            <TbCloverFilled />
+            <BsLeafFill />
             Loved by Our Guests
           </p>
         </div>
@@ -98,18 +107,18 @@ function SpecialistPage() {
 
               <div className="guest-pic">
                 <img
-                  src={menuImages[item.title]}
-                  alt={item.title}
+                  src={menuImages[item.name]}
+                  alt={item.name}
                 />
               </div>
 
               <div className="guest-desc">
 
-                <h4>{item.title}</h4>
+                <h4>{item.name}</h4>
 
-                <p>{item.desc}</p>
+                <p>{item.description}</p>
 
-                <span>{item.price}</span>
+                {/* <span>{item.price}</span> */}
 
               </div>
 
@@ -125,7 +134,7 @@ function SpecialistPage() {
 
         <div className="mc-badge">
           <p>
-            <TbCloverFilled />
+            <BsLeafFill />
             More chef Recommendations
           </p>
         </div>
@@ -141,18 +150,18 @@ function SpecialistPage() {
 
               <div className="guest-pic">
                 <img
-                  src={menuImages[item.title]}
-                  alt={item.title}
+                  src={menuImages[item.name]}
+                  alt={item.name}
                 />
               </div>
 
               <div className="guest-desc">
 
-                <h4>{item.title}</h4>
+                <h4>{item.name}</h4>
 
-                <p>{item.desc}</p>
+                <p>{item.description}</p>
 
-                <span>{item.price}</span>
+                {/* <span>{item.price}</span> */}
 
               </div>
 
@@ -168,4 +177,4 @@ function SpecialistPage() {
   )
 }
 
-export default SpecialistPage
+export default Recommendation

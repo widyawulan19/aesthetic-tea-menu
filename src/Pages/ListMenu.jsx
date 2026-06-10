@@ -1,15 +1,21 @@
 import React, { useState } from 'react'
 import '../Styles/ListMenu.css'
-import restaurantMenu from '../Data/MenuRestaurant.json'
+import teaMenu from '../Data/TeaMenu.json';
 import { IoIosArrowBack } from "react-icons/io";
 import { IoAlertCircleOutline } from "react-icons/io5";
 import { AnimatePresence, motion } from "framer-motion";
 
-import img1 from '../Assets/menu1.svg'
-import img2 from '../Assets/menu2.svg'
 import { useNavigate } from 'react-router-dom';
-import SpecialistPage from './SpecialistPage';
 import AboutPage from './AboutPage';
+
+import cat1 from '../Assets/cat1.png'
+import cat2 from '../Assets/cat2.svg'
+import cat3 from '../Assets/cat3.svg'
+import cat4 from '../Assets/cat4.svg'
+import cat5 from '../Assets/cat5.svg'
+import cat6 from '../Assets/cat6.svg'
+
+
 
 import { BiSolidFoodMenu } from "react-icons/bi";
 import { FaStar } from "react-icons/fa";
@@ -20,55 +26,48 @@ function ListMenu() {
     const navigate = useNavigate();
     const [activeTab, setActiveTab] = useState("menu");
 
-
     const categoryPic ={
-        "BREAKFAST":img1,
-        "BEVERAGES":img2
+        "Black Tea":cat1,
+        "Green Tea":cat2,
+        "Herbal Tea": cat3,
+        "Specialty Tea":cat4,
+        "Tea Latte":cat5,
+        "Coffee":cat6
     }
 
-    const categoryBg = {
-        "BREAKFAST":"#703027",
-        "BEVERAGES":"#484244"
-    }
 
     const navigateToWelcome = () =>{
         navigate('/')
+    }
+
+    const navigateToCategory = (category) =>{
+        navigate(`/menu-list/${category}`)
     }
 
   return (
     <div className='list-container'>
         
         <div className="lm-content">
-            {restaurantMenu.map((menu,index) =>(
-                <div className="lm-main" key={index}>
-                    <div 
-                        className="lm-badge" 
-                        style={{
-                            backgroundColor:categoryBg[menu.category],
-                            // border:`1px solid categoryBg[menu.category]`
-                        }}
-                    >
-                        <h4>{menu.category}</h4>
-                        <div className="badge-img">
-                            <img src={categoryPic[menu.category]} alt={menu.category} />
+            <div className="lm-des">
+                <h3>
+                    Discover Your Perfect Tea
+                </h3>
+                <p>
+                    Explore handcrafted tea selections curated for every mood — from bold black tea to calming herbal infusions.
+                </p>
+            </div>
+            
+            <div className="lm-category">
+                {teaMenu.map((item, index) =>(
+                    <div className="list-card" key={index} >
+                        <div className="list-img" onClick={() => navigateToCategory(item.category)}>
+                            <img src={categoryPic[item.category]} alt={item.category} />
                         </div>
+                        <h4>{item.category}</h4>
                     </div>
-                    {menu.items.map((item,idx) =>(
-                        <div className="lm-list" key={idx}>
-                            <div className="price">
-                                <p>
-                                    {item.price}
-                                </p>
-                            </div>
-
-                            <div className="lm-desc">
-                                <h4>{item.title}</h4>
-                                <p>{item.desc}</p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            ))}
+                ))}
+            </div>
+            
         </div>
 
               

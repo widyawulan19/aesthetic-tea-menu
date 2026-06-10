@@ -23,114 +23,75 @@
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    /* align-items: center; */
+    gap: 20px;
 
     /* justify-content: center; */
 }
 
-.about-box h1 {
+
+.section-title {
+    background: #dfe8de;
+    padding: 10px;
     width: 100%;
-    text-align: center;
-    /* text-decoration: underline; */
+    border-radius: 14px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .08);
 }
 
-.about-img {
+.section-title h3 {
+    color: var(--res-color);
+    font-size: 18px;
+    font-weight: 700;
     width: 100%;
-    height: 200px;
+    text-align: center;
+}
+
+.about-desc p {
+    line-height: 1.8;
+    text-align: justify;
+    color: #2e2e2e;
+}
+
+.opening-card {
+    text-align: center;
+    padding: 20px;
+    /* background: rgb(255, 255, 255); */
+    border-radius: 18px;
+}
+
+.opening-card h4 {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.opening-card p {
+    color: var(--res-color);
+    font-size: 15px;
+}
+
+.about-loc {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.about-loc p {
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 0;
+    font-size: 12px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+.about-icon {
+    color: #0a4a1f;
+    font-size: 1.5rem;
+    margin-top: 4px;
 }
 
 .about-img img {
     width: 100%;
-    height: 100%;
-}
-
-/* =======================
-LOCATION
-======================= */
-.about-loc {
-    margin-top: 10px;
-    width: 100%;
-
-    display: flex;
-    /* align-items: center; */
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.about-icon {
-    color: #932929;
-    font-size: 25px;
-}
-
-.about-loc p {
-    font-size: 13px;
-    color: var(--color-text-primary);
-    font-style: italic;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-}
-
-/* =======================
-DESC
-======================= */
-.about-desc {
-    margin-top: 10px;
-    width: 100%;
-}
-
-.about-desc p {
-    text-align: justify;
-    font-size: 14px;
-    color: var(--color-text-primary);
-}
-
-/* =======================
-OPENING HOURS
-======================= */
-.about-oh {
-    width: 100%;
-    margin-top: 15px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-oh h3 {
-    width: 100%;
-    background-color: var(--res-color-bata);
-    color: var(--res-color);
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    padding: 5px;
-}
-
-.opening-hours {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-
-    padding-top: 10px;
-}
-
-.hours-item {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    width: 100%;
-    text-align: center;
-}
-
-.day {
-    font-weight: 600;
-    color: var(--color-text-primary);
-}
-
-.time {
-    opacity: .9;
-    font-size: 18px;
+    border-radius: 20px;
+    object-fit: cover;
 }

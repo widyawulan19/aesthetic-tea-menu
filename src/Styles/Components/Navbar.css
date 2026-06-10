@@ -1,0 +1,43 @@
+.mp-nav {
+    width: 100%;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid var(--res-color-brown); */
+    /* border: 1px solid red; */
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.mp-img {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mp-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mp-nav span {
+    font-size: 12px;
+    letter-spacing: 0;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+
+.mp-icon {
+    font-size: 25px;
+    -webkit-tap-highlight-color: transparent;
+    color: var(--res-color);
+}
+
+.mp-icon-about {
+    display: none;
+}

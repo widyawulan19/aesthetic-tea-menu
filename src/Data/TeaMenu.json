@@ -1,0 +1,302 @@
+[
+    {
+        "category": "Black Tea",
+        "price": [
+            {
+                "size": "16oz",
+                "priceSize": "$2.50"
+            },
+            {
+                "size": "20oz",
+                "priceSize": "$3.50"
+            }
+        ],
+        "items": [
+            {
+                "name": "Darjeeling",
+                "description": "A blend of second flush and autumnal tea, bright in taste.",
+                "tags": "popular",
+                "menuPicks": [
+                    "master's pick",
+                    "guest",
+                    "more"
+                ]
+            },
+            {
+                "name": "Chocolate Mint",
+                "description": "Chocolate infused tea with crisp peppermint leaves.",
+                "tags": ""
+            },
+            {
+                "name": "Hot Cinnamon Spice",
+                "description": "Naturally sweet cinnamon with sweet clove and orange rind.",
+                "tags": ""
+            },
+            {
+                "name": "Ceylon & India",
+                "description": "Hearty Assam mellowed by Ceylon, an everyday staple.",
+                "tags": "popular",
+                "menuPicks": [
+                    "guest"
+                ]
+            },
+            {
+                "name": "English Breakfast",
+                "description": "Toast in aroma with a roasted taste.",
+                "tags": ""
+            },
+            {
+                "name": "Earl Grey",
+                "description": "Indian black tea infused with oil of bergamot.",
+                "tags": "",
+                "menuPicks": [
+                    "more"
+                ]
+            },
+            {
+                "name": "Ceylon (Decaf)",
+                "description": "A Sri Lankan black tea, sans caffeine.",
+                "tags": ""
+            },
+            {
+                "name": "Vanilla",
+                "description": "Black tea combined with warm rich notes of vanilla.",
+                "tags": ""
+            },
+            {
+                "name": "Boston",
+                "description": "Black tea infused with cranberry and almond.",
+                "tags": ""
+            },
+            {
+                "name": "Florence",
+                "description": "A decadent blend of chocolate infused black tea with hazelnut.",
+                "tags": ""
+            },
+            {
+                "name": "Paris",
+                "description": "A blend of oil of bergamot, black currant, and warm notes of vanilla.",
+                "tags": ""
+            }
+        ]
+    },
+    {
+        "category": "Green Tea",
+        "price": [
+            {
+                "size": "16oz",
+                "priceSize": "$2.50"
+            },
+            {
+                "size": "20oz",
+                "priceSize": "$3.50"
+            }
+        ],
+        "items": [
+            {
+                "name": "Bancha",
+                "description": "Mild and toasty.",
+                "tags": "popular",
+                "menuPicks": [
+                    "guest"
+                ]
+            },
+            {
+                "name": "Moroccan Mint",
+                "description": "Chinese Gunpowder Green with brisk peppermint leaves.",
+                "tags": "popular",
+                "menuPicks": [
+                    "guest",
+                    "master's pick"
+                ]
+            },
+            {
+                "name": "Cherry Blossom",
+                "description": "Green tea blended with plum and cherry flavor.",
+                "tags": ""
+            },
+            {
+                "name": "Gunpowder Green",
+                "description": "Rich and smoky flavor.",
+                "tags": ""
+            },
+            {
+                "name": "Genmaicha",
+                "description": "Japanese bancha with popped rice kernels for a toasted flavor.",
+                "tags": ""
+            },
+            {
+                "name": "Jasmine",
+                "description": "Scented with jasmine flowers.",
+                "tags": ""
+            },
+            {
+                "name": "Oolong",
+                "description": "Toasty and woodsy in aroma and flavor.",
+                "tags": ""
+            },
+            {
+                "name": "Lemony Gunpowder",
+                "description": "Traditional Gunpowder Green tea with a hint of lemon.",
+                "tags": ""
+            }
+        ]
+    },
+    {
+        "category": "Herbal Tea",
+        "price": [
+            {
+                "size": "16oz",
+                "priceSize": "$2.50"
+            },
+            {
+                "size": "20oz",
+                "priceSize": "$3.50"
+            }
+        ],
+        "items": [
+            {
+                "name": "Chamomile",
+                "description": "Egyptian flowerheads, with hints of green apple.",
+                "tags": ""
+            },
+            {
+                "name": "Lemon Herbal",
+                "description": "Soothing lemongrass with lemon rind and flavor.",
+                "tags": "popular",
+                "menuPicks": [
+                    "guest"
+                ]
+            },
+            {
+                "name": "Rooibos",
+                "description": "From the South African 'red bush', earthy with a slight sweetness.",
+                "tags": "popular",
+                "menuPicks": [
+                    "guest"
+                ]
+            },
+            {
+                "name": "Yellow & Blue",
+                "description": "Egyptian chamomile with lavender and cornflower.",
+                "tags": ""
+            },
+            {
+                "name": "Yerba Mate",
+                "description": "Crisp and vegetal flavor.",
+                "tags": "",
+                "note": "Caffeinated"
+            },
+            {
+                "name": "Yogi Tea",
+                "description": "Cinnamon, cardamom, ginger and black pepper.",
+                "tags": ""
+            },
+            {
+                "name": "Root 66",
+                "description": "Roasted dandelion, chicory root, sassafras root, chocolate and carob.",
+                "tags": ""
+            }
+        ]
+    },
+    {
+        "category": "Specialty Tea",
+        "price": [
+            {
+                "size": "16oz",
+                "priceSize": "$3.50"
+            },
+            {
+                "size": "20oz",
+                "priceSize": "$4.00"
+            }
+        ],
+        "items": [
+            {
+                "name": "Chai (Decaf)",
+                "description": "Our classic chai with decaffeinated black tea.",
+                "tags": ""
+            },
+            {
+                "name": "White Tea",
+                "description": "Light, fresh and sweet.",
+                "tags": ""
+            },
+            {
+                "name": "White Vanilla Grapefruit",
+                "description": "Warm notes of vanilla and fresh grapefruit.",
+                "tags": "popular",
+                "menuPicks": [
+                    "guest",
+                    "more"
+                ]
+            },
+            {
+                "name": "Kukicha Twig Tea",
+                "description": "Made from the roasted twigs and stems of the green tea plant.",
+                "tags": ""
+            },
+            {
+                "name": "Chai",
+                "description": "Cinnamon, ginger, cardamom, allspice, clove, black pepper and black tea.",
+                "tags": ""
+            },
+            {
+                "name": "African Chai",
+                "description": "Kenyan black tea, allspice, clove, fennel, cinnamon, licorice root, ginger, black pepper and rose petals.",
+                "tags": "popular",
+                "menuPicks": [
+                    "guest",
+                    "more"
+                ]
+            },
+            {
+                "name": "Purple Rain",
+                "description": "Kenyan Purple Tea with lemongrass, hibiscus, apple and rosehip.",
+                "tags": ""
+            }
+        ]
+    },
+    {
+        "category": "Tea Latte",
+        "price": [
+            {
+                "size": "16oz",
+                "priceSize": "$3.50"
+            }
+        ],
+        "items": [
+            {
+                "name": "London Fog",
+                "description": "Classic Earl Grey with steamed and frothed milk.",
+                "tags": ""
+            },
+            {
+                "name": "Chai Latte",
+                "description": "Your choice of chai blend with steamed and frothed milk.",
+                "tags": "popular"
+            }
+        ],
+        "note": "Substitute almond milk for an additional $0.50"
+    },
+    {
+        "category": "Coffee",
+        "price": [
+            {
+                "size": "16oz",
+                "priceSize": "$2.50"
+            },
+            {
+                "size": "20oz",
+                "priceSize": "$3.50"
+            }
+        ],
+        "items": [
+            {
+                "name": "Monsoon Roastery Coffee",
+                "description": "Fresh brewed coffee.",
+                "tags": []
+            }
+        ]
+    }
+]

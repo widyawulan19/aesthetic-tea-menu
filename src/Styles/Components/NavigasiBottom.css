@@ -45,6 +45,7 @@
 
     transition: .3s;
     /* box-shadow: var(--basic-shadow) */
+    -webkit-tap-highlight-color: transparent;
 }
 
 .navigasi-bottom button.active {
@@ -52,6 +53,8 @@
     color: #fff;
     border-radius: 99px;
     padding: 8px;
+
+    -webkit-tap-highlight-color: transparent;
 }
 
 button span {
